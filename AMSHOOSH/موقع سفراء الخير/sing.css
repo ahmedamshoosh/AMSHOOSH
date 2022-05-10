@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+
+}
+body{
+
+    background:linear-gradient(rgba(0,0,0,2),rgba(0,0,0,.5)),url(images/ثواب_عمل_الخير.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mane{
+    background-color: rgb(126, 216, 118);
+    width: 50%;
+    height: 50%;
+    margin-right: 340px;
+    margin-top: 50px;
+}
+.title h1{
+    text-align: center;
+    font-size: 2.2em;
+    padding-top: 15px;
+    background-color: green;
+    width: 200px;
+    margin-right: 230px;
+    border-radius: 20px;
+   
+    
+}
+.ti{
+    text-align: center;
+    padding-top: 20px;
+}
+.form{
+    font-size: 1.5em;
+    margin-top: 20px;
+    
+}
+.ddd{
+    justify-content: space-between;
+    padding-right:60px;
+}
+.for{
+    display: inline-block;
+    justify-content: space-between;
+    padding-right:60px;
+    margin-bottom: 20px;
+
+}
+.titl{
+    font-size: 2em;
+    background-color: green;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 180px;
+    border-radius: 20px;
+    transition: 0.6s;
+}
+.titl:hover{
+    background-color:rgb(59, 158, 59);
+    transform:scale(1.1);
+}
+.lab{
+    font-size: 1.5em;
+    justify-content: space-between;
+    padding-right:60px;
+   
+}
+.laba{
+    font-size: 1.5em;
+    justify-content: space-between;
+    padding-right :20px;
+}
+.title1{
+   font-size: 2em;
+    background-color: green;
+    padding: 10px;
+    margin-top: 20px;
+    width: 180px;
+text-align: center;
+border-radius: 20px;
+transition: 0.6s;
+}
+.title1:hover{
+    background-color:rgb(59, 158, 59);
+    transform:scale(1.1);
+}
+.but{
+    background-color: green;
+    font-size: 2em;
+    margin-right: 300px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 90px;
+    display: inline;
+   
+    transition: 0.6s;
+
+}
+.but:hover{
+    background-color:rgb(59, 158, 59);
+    transform:scale(1.1);
+}
+.ggg{
+    font-size: 1.5em;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    font-family: 'khalaad al-arabeh';
+    box-sizing: border-box;
+    outline: none;
+  
+}
+
+header{
+    background-color: rgb(39, 129, 31);
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,2),rgba(0,0,0,.5)),url(images/ثواب_عمل_الخير.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ 
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.sing{
+    background-color: aqua;
+    font-size: 1em;
+    font-weight: 100;
+    
+}
+.title {
+    color: rgb(255, 255, 255);
+   text-decoration: none;
+    font-size: 2.8em;
+    font-weight: 500;
+    font-family: 'khalaad al-arabeh';
+    margin-top: 120px;
+}
+
+.main a{
+    color: rgb(255, 255, 255);
+    font-weight:300;
+    font-size: 1.8em;
+    text-decoration: none;
+    float: left;
+    background-color:rgb(50, 82, 50);
+    width: 140px;
+    justify-content: space-between;
+    padding-right:60px;
+    align-items: center;
+    margin-top: -40px;
+    transition: 0.6s;
+}
+.main a:hover{
+    color: rgb(150, 241, 158);
+    text-decoration: underline;
+    background-color:rgb(50, 82, 50);
+    transform:scale(1.1);
+    border-radius: 20px;
+   
+}
+.content img{
+    opacity: 0.9;
+
+}
+.sing{
+    background-color:green;
+    font-size: 2em;
+ width: 290px;
+ margin-right: 550px;
+ margin-top: 50px;
+
+text-align: center;
+    
+transition: 0.6s;
+}
+.bbb{
+    text-decoration: none;
+    color: black;
+   
+}
+.sing:hover{
+   
+    background-color:rgb(59, 158, 59);
+    transform:scale(1.1);
+}
+.content .title-2 {
+    color: black;
+    font-size: 3em;
+    font-family:'khalaad al-arabeh' ;
+    font-weight: 400;
+    padding-right: 20px;
+    text-decoration: underline solid;
+}
+.content{
+    background-color: rgb(230, 230, 230)
+}
+.logo{
+    background-color: green;
+    font-size: 2em;
+    text-align: center;
+    width: 330px;
+    margin-right: 500px;
+    margin-top: 30px;
+}
+
+.serv{
+    background-color: green;
+    width: 250px;
+margin-right: 20px;
+margin-top: 60px;
+transition: 0.6s;
+}
+.serv:hover{
+    background-color:rgb(59, 158, 59);
+    transform:scale(1.1);
+}
+.content .cont{
+    font-size: 1.9em;
+    font-family:'khalaad al-arabeh' ;
+    color: green;
+    text-align: justify;
+    font-weight: 500;
+    list-style-type:decimal;
+    padding-right: 100px;
+    padding-left: 200px;
+    padding-top: 45px;
+    
+
+}
+
+.footer{
+    font-weight: bold;
+    
+    padding: 2em;
+       color: rgb(0, 255, 0);
+       display: flex;
+       justify-content:space-between;
+   background-color: rgb(28, 80, 37);
+   }
+   
+.social-icons img{
+    width: 40px;
+   justify-content: space-between;
+   padding-right: 15px;
+   margin-left: 50px;
+
+}
+   .footer-title{
+       font-size: 2em;
+   
+   }
+   .foot span{
+       color: red;
+   }
+   .foot{
+       color: black;
+       font-size: 1.5em;
+   }
+.foot .me{
+    color: rgb(4, 0, 255);
+    text-decoration: none;
+    font-weight: 500;
+
+    
+} 
+.foot .me:hover{
+color :aqua;
+}
+
